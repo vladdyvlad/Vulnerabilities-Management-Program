@@ -78,9 +78,24 @@ After gathering feedback from the server team, the policy is revised, addressing
 
 The team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
 
-<a href='https://youtu.be/lg068WA4SKM' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/31fe8d0f-636b-475b-8d5a-a2795c183f86"></a>
+# Vulnerability Scan Planning - Dialogue Between Mario and Peach
 
-[YouTube Video: Initial Discovery Scan](https://youtu.be/lg068WA4SKM)
+**Mario:** Morning, Peach.  
+**Peach:** Good morning! I heard you're ready to conduct some scans.  
+**Mario:** Yep. Now that our vulnerability management policy is in place, I wanted to get started on scheduled credential scans of your environment.  
+**Peach:** Sounds good to me. What's involved? How can we help?  
+**Mario:** We're planning to schedule weekly scans of the server infrastructure. We estimate it’ll take about 4 to 6 hours to scan all 200 assets. We'll need you to provide administrative credentials so the scan engine can remotely log in and assess the targets more thoroughly.  
+**Peach:** Whoa, hold on. What does scanning actually entail? I’m a bit concerned about resource utilization. Also, you’re asking for admin credentials to all 200 machines — that doesn’t sound very safe.  
+**Mario:** Those are valid concerns. The scan engine sends specific traffic to the servers to check for known vulnerabilities. This includes checking the registry, verifying if out-of-date software is installed, and identifying insecure protocols or cipher suites. That’s why credentials are necessary — they allow for a deeper, more accurate assessment.  
+**Peach:** I see. Well, as long as it doesn’t bring the servers offline, we should be okay.  
+**Mario:** Absolutely. Let’s just scan a single server first and monitor its resource utilization.  
+**Peach:** Not a bad idea.  
+**Mario:** Great. Also, regarding the credentials — can you set something up in Active Directory for us? You can keep the credentials disabled until we’re ready to scan, then enable them during the scan, and disable or deprovision them afterward — like a just-in-time access setup.  
+**Peach:** That sounds good. I’ll ask Susan to get started on automating the account provisioning.  
+**Mario:** Awesome. Talk soon.  
+**Peach:** Sounds good. I’ll get back to you once the credentials are set up.  
+**Both:** See you later.
+
 
 ---
 
