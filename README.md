@@ -48,9 +48,19 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 In this phase, a meeting with the server team introduces the draft Vulnerability Management Policy and assesses their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window from 48 hours to one week, ensuring collaborative implementation.
 
-<a href='https://youtu.be/8g6uafc6LjE' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/549d21f4-26c2-412d-9117-d7b6835aedbf"></a>
+# Policy Discussion Between Mario and Peach
 
-[YouTube Video: Stakeholder Policy Buy-In Meeting](https://youtu.be/8g6uafc6LjE)
+**Mario:** Hey, good morning, Peach. How's everything been lately? I know it’s been a busy few weeks.  
+**Peach:** Good morning, Mario. Yeah, it's been a bit hectic, but we're hanging in there. Thanks for asking. I had a chance to review the policy draft — overall, it makes sense. However, with our current staffing, we won’t be able to meet the aggressive remediation timelines, especially the 48-hour window for critical vulnerabilities.  
+**Mario:** I totally understand — it is a bit aggressive, especially to start. Maybe we can extend the critical window to one week for now? Then we reserve the 48-hour timeframe for truly severe cases, like zero-day vulnerabilities.  
+**Peach:** That sounds reasonable. We really appreciate the flexibility. Could we also have some leeway in the beginning, just while we get used to the new remediation and patching process — say, for the first few months?  
+**Mario:** Absolutely. Once the policy is finalized, the program will officially launch, but we’re planning to give all departments about six months to adjust and get comfortable with the new process. Does that sound fair?  
+**Peach:** That works. Thanks, Mario — we’ll do our best. I appreciate you including us in the decision-making process. It really helps us feel like part of the solution.  
+**Mario:** Of course — we’re all in this together. Thanks for working with us.  
+**Peach:** No problem. Thanks for keeping the meeting short.  
+**Mario:** Those are my favorite kinds. Take care!  
+**Peach:** See you later.
+
 
 ---
 
